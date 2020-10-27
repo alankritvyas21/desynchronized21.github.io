@@ -20,6 +20,10 @@ body a {
   margin-left: 200%;	
   }
   /*-- banner --*/
+  .banner5{
+	background: url(../images/newCODLogo.png) no-repeat 0px 0px;
+	background-size: cover; 
+}
   .banner4{
 	background: url(../images/rockstarlogo.jpg) no-repeat 0px 0px;
 	background-size: cover; 
@@ -103,35 +107,7 @@ body a {
 	  float: right;
 	  width: 18.2%;
   }
-  .search {
-	  border: 1px solid #d2cfcf;
-	  margin-top: .5em;
-  }
-  .search form {
-	  display: flex;
-	  display: -webkit-flex
-  }
-  .search input[type="search"] {
-	  border: none;
-	  outline: none;
-	  padding: .5em .5em;
-	  font-size: .875em;
-	  color: #fff;
-	  background: none;
-  }
-  .search form input[type="submit"] {
-	  background: url(../images/search.png) no-repeat center;
-	  width: 49px;
-	  height: 35px;
-	  border: none;
-	  margin: 0 0 0 0px;
-	  padding: 0;
-	  border-left: 1px solid #d2cfcf;
-	  border-right: none;
-	  border-bottom: none;
-	  border-top: none;
-	  outline:none;
-  }
+
   /*-- //header-top --*/
   .header {
 	  border-bottom: 1px solid rgba(255, 255, 255, 0.29);
@@ -162,7 +138,7 @@ body a {
 	  float: none;
   }
   .navbar-default .navbar-nav > li > a {
-	  color: #000;
+	  color: rgb(252, 252, 252);
 	  font-size: 1em;
 	  padding: 1.8em 0.5em;
 	  position: relative;
